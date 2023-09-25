@@ -1,29 +1,34 @@
-# AutomationForked
-Automatic Forker for GitHub
-O Automatic Forker for GitHub é uma ferramenta Python que automatiza o processo de dar "fork" em repositórios do GitHub, seguindo forks recursivos para criar uma rede de forks em cascata.
+# Automatic Forker for GitHub
 
-Funcionalidades Principais:
-Fork Automático: Dê fork automaticamente em um repositório do GitHub com base em seu nome de usuário.
+The Automatic Forker for GitHub is a Python tool that automates the process of forking GitHub repositories, following recursive forks to create a cascade of forks network.
 
-Forks Recursivos: Siga forks recursivos para dar fork em todos os repositórios na rede de forks.
+## Key Features:
 
-Evite Duplicatas: Evite a criação de forks duplicados em repositórios que você já deu fork anteriormente.
+- **Automatic Forking:** Automatically fork a GitHub repository based on your GitHub username.
 
-Configuração Fácil: Configure rapidamente o token pessoal do GitHub e o nome de usuário através de interação no console.
+- **Recursive Forks:** Follow recursive forks to fork all repositories in the forks network.
 
-Como Usar:
-Clone este repositório em seu ambiente local.
+- **Avoid Duplicates:** Avoid creating duplicate forks in repositories you have already forked.
 
-Execute o script Python fornecido.
+- **Easy Configuration:** Quickly set up your GitHub personal access token and username through console interaction.
 
-Siga as instruções no console para configurar seu token pessoal do GitHub e o nome de usuário.
+## How to Use:
 
-O script dará fork no repositório do seu próprio nome de usuário e seguirá forks recursivos, evitando duplicatas.
+1. Clone this repository to your local environment.
 
-Pré-requisitos:
-Python 3.x
-Um token pessoal do GitHub com permissões para dar fork em repositórios.
-Nota Importante:
-Certifique-se de usar seu token pessoal do GitHub com cuidado e não compartilhá-lo publicamente.
+2. Run the provided Python script.
 
-Observe que o GitHub pode ter limitações de taxa de uso da API. Certifique-se de respeitar esses limites para evitar interrupções no processo.
+3. Follow the instructions in the console to set up your GitHub personal access token and username.
+
+4. The script will fork the repository of your own username and follow recursive forks, avoiding duplicates.
+
+## Prerequisites:
+
+- Python 3.x
+- A GitHub personal access token with permissions to fork repositories.
+
+## Important Note:
+
+- Be sure to use your GitHub personal access token with care and do not share it publicly.
+
+- Note that GitHub may have API usage rate limitations. Be sure to respect these limits to avoid disruptions in the process.
